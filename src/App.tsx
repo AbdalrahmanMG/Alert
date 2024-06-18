@@ -7,12 +7,12 @@ function App() {
     <div className="main">
       <Alert
         title={"Alert Title"}
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo atque
-        laudantium distinctio voluptates hic odio corrupti veniam repudiandae
-        sapiente perspiciatis!"
+        description={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo atque laudantium distinctio voluptates hic odio corrupti veniam repudiandae sapiente perspiciatis`}
         icon={<BellRing />}
         type={"alert-danger"}
-      />
+      >
+        <p>children content</p>
+      </Alert>
     </div>
   );
 }
